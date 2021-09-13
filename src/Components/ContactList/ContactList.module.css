@@ -1,0 +1,16 @@
+.section {
+  width: 400px;
+  border: 1px solid blueviolet;
+}
+.button {
+  margin-left: 10px;
+}
+.name {
+  font-weight: 700;
+}
+.number {
+  color: blue;
+}
+.li {
+  margin-bottom: 5px;
+}

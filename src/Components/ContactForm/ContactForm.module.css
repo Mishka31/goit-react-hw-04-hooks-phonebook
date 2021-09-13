@@ -1,0 +1,21 @@
+.container {
+  width: 400px;
+  border: 1px solid red;
+}
+.name {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.imputAndButton {
+  display: grid;
+  margin-left: 10px;
+}
+.imput {
+  width: 200px;
+  height: 20px;
+}
+.button {
+  margin-top: 20px;
+  width: 120px;
+  margin-bottom: 20px;
+}

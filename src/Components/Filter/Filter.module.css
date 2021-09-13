@@ -1,0 +1,12 @@
+.imput {
+  width: 200px;
+  height: 20px;
+}
+.container {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.title {
+  font-weight: 700;
+  color: rgb(150, 209, 209);
+}
