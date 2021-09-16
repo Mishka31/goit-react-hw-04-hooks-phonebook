@@ -34,7 +34,7 @@ const ContactForm = ({ onSubmit, listArrey }) => {
   };
   return (
     <div className={s.container}>
-      <form className={s.imputAndButton} onSubmit={hendkeSubmit}>
+      <form className={s.imputAndButton} onSubmit={hendkeSubmit} autoComplete="off">
         <label>
           <p className={s.name}>Name</p>
           <input
