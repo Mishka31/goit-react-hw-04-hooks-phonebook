@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import useLocalStorage from "./hooks/useLocalStorage.js";
 import ContactForm from "./Components/ContactForm/ContactForm.jsx";
 import ContactList from "./Components/ContactList/ContactList.jsx";
@@ -7,7 +8,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const App = () => {
   const [contacts, setContacts] = useLocalStorage("contacts", "");
-  const [filter, setfilter] = useLocalStorage("", "");
+  const [filter, setfilter] = useState("");
 
   const lowerFilter = filter.toLowerCase();
   const filteredContacts = contacts.filter((contact) => contact.name.toLowerCase().includes(lowerFilter));
